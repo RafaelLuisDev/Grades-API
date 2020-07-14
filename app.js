@@ -34,9 +34,9 @@ app.use(
 app.use(gradeRouter);
 
 app.get('/', (req, res) => {
-    res.send('API em execucao');
+    res.send('API em execução');
 });
 
 app.listen(process.env.PORT || 8081, () => {
-    logger.info(`Servidor em execucao na porta ${process.env.PORT || 8081}`);
+    logger.info(`Servidor em execução na porta ${process.env.PORT || 8081}`);
 });
