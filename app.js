@@ -25,7 +25,7 @@ const app = express();
 //define o dominio de origem para consumo do servico
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({ origin: ['http://localhost:8080', /grades-app-thecoder-d/gi] }));
 
 app.use(gradeRouter);
 
