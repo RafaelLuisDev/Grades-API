@@ -27,7 +27,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
     cors({
-        origin: 'https://grades-app-thecoder-d.herokuapp.com',
+        origin: ['http://localhost:8080', 'https://grades-app-thecoder-d.herokuapp.com'],
     })
 );
 
