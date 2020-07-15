@@ -10,5 +10,5 @@ Este app se comunica com o Front-End do projeto: https://github.com/RafaelLuisDe
 Este Front-End está publicado no Heroku: https://grades-app-thecoder-d.herokuapp.com/
 
 OBS: Para acessar o banco de dados, deve-se liberar o IP do Heroku no MongoDB Atlas.
-MongoDB Cluster: BootcampIGTI
-Database: Grades-Api
+- MongoDB Cluster: BootcampIGTI
+- Database: Grades-Api
